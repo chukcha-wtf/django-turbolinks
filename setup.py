@@ -28,8 +28,8 @@ setup(
     author='Dmitry Gladkov',
     author_email='dmitry.gladkov@gmail.com',
     description='Drop-in turbolinks implementation for Django',
-    long_description=open(
-        os.path.join(os.path.dirname(__file__), 'README.md')).read(),
+    # long_description=open(
+    #     os.path.join(os.path.dirname(__file__), 'README.md')).read(),
     packages=['turbolinks'],
     include_package_data=True,
     zip_safe=False,
